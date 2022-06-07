@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+     rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+     crossorigin="anonymous">
+    <title>FETCH-API CRUD OPERATIONS</title>
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center mx-auto mt-2">
+                    FETCH API ON POSTS
+                </h3>
+                <form>
+                    <div class="form-group mt-3">
+                        <label for="title" class="form-label fs-5">TITLE</label>
+                        <input type="text" name="title" id="Title" class="form-control" placeholder="Enter the title..">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="body" class="form-label fs-5">BODY</label>
+                        <textarea name="body" id="body" class="form-control" placeholder="Enter the body of the post.."></textarea>
+                    </div>
+                    <input type="submit" value="Add Post" class="btn btn-primary mt-3">
+                </form>
+            </div>
+        </div>
+        <div class="post-list mb-2 mt-3 row">
+            <div class="card col-md-6 bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                    <p class="card-text">This is some example text in the project of learning the crud operations with the fetch API..</p>
+                    <a href="#" class="card-link">Edit</a>
+                    <a href="#" class="card-link">Delete</a>
+                </div>
+            </div>
+            <div class="card col-md-6 bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                    <p class="card-text">This is some example text in the project of learning the crud operations with the fetch API..</p>
+                    <a href="#" class="card-link">Edit</a>
+                    <a href="#" class="card-link">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
