@@ -1,0 +1,19 @@
+.red{
+    width:600px;
+    height:600px;
+    background-color: red;
+}
+
+.green{
+    width:400px;
+    height:400px;
+    background-color: green;
+}
+
+.blue{
+    width:400px;
+    height:400px;
+    background-color: blue;
+    position:absolute;
+    left:100px;
+}
